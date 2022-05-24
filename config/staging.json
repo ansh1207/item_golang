@@ -1,0 +1,24 @@
+{
+    "aerospike": {
+        "host": "10.100.3.187",
+        "port": "4001"
+    },
+    "campaigns": {
+        "baseUrl": "http://10.100.3.119:9481/"
+    },
+    "abapi": {
+        "baseUrl": "http://10.100.1.125:3000/"
+    },
+    "mongo": {
+        "url": "mongodb://10.100.3.216:27017,10.100.4.216:27017,10.100.4.217:27017/appbazaar?replicaSet=rs1&readPreference=secondaryPreferred",
+        "options": {
+          "useNewUrlParser": true,
+          "useUnifiedTopology": true
+        }
+    },
+    "dbType" : 1,
+    "dbUrl" : "mongodb://10.100.3.216:27017,10.100.4.216:27017,10.100.4.217:27017/appbazaar?replicaSet=rs1&readPreference=secondaryPreferred",
+    "dbName" : "appbazaar",
+    "host": "127.0.0.1",
+    "port": "8000"
+}
